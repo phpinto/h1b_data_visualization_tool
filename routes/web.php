@@ -16,3 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Socialite Routes:
+
+Route::get('login/{provider}', 'Auth\LoginController@redirectToProvider', function ($provider) {
+    return $provider;
+})->where('provider', 'facebook|linkedin');
+
+Route::get('login/{provider}/callback', 'Auth\LoginController@handleProviderCallback', function ($provider) {
+    return $provider;
+})->where('provider', 'facebook|linkedin');
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/home', 'HomeController@index')->name('home');

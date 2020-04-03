@@ -29,5 +29,15 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    'facebook' => [
+        'client_id' => env('FACEBOOK_CLIENT_ID'),         // Facebook Client ID
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'), // Facebook Client Secret
+        'redirect' => env('FACEBOOK_REDIRECT_URL'),       // Facebook Redirect URL
+    ],
+    'linkedin' => [
+        'client_id' => env('LINKEDIN_CLIENT_ID'),         // Linkedin Client ID
+        'client_secret' => env('LINKEDIN_CLIENT_SECRET'), // Linkedin Client Secret
+        'redirect' => env('LINKEDIN_REDIRECT_URL'),       // Linkedin Redirect URL
+    ],
 
 ];
