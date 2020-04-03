@@ -67,13 +67,13 @@
                         <legend class="text-muted text-center">or</legend>
                         <div class="col-md-5 offset-md-4">
                                 <a class="btn btn-block btn-social btn-facebook" href="{{ url('/login/facebook') }}">
-                                    <span class="fa fa-facebook"></span><center>Sign Up with Facebook</center>
+                                    <span class="fa fa-facebook"></span><center>Login with Facebook</center>
                                 </a>
                         </div>
                         <div style="height:6px;font-size:1px;">&nbsp;</div>
                         <div class="col-md-5 offset-md-4">
                                 <a class="btn btn-block btn-social btn-linkedin" href="{{ url('/login/linkedin') }}">
-                                    <span class="fa fa-linkedin"></span><center>Sign Up with Linkedin</center>
+                                    <span class="fa fa-linkedin"></span><center>Login with Linkedin</center>
                                 </a>
                         </div>
                     </form>
