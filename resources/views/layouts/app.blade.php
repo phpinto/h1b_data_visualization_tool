@@ -34,7 +34,18 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="/job_search/">Job Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="/heat_map/">Heat Map</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="/dataviz/">Graphs/Figures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="/top_companies/">Top Companies</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

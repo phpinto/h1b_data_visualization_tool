@@ -20,8 +20,14 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('heat-map', require('./components/HeatMap.vue').default);
+Vue.component('job-search', require('./components/JobSearch.vue').default);
+Vue.component('data-viz', require('./components/DataViz.vue').default);
+Vue.component('top-companies', require('./components/TopCompanies.vue').default);
+Vue.component("clip-loader", require("vue-spinner/src/ClipLoader.vue").default);
+Vue.component('test', require('./components/Test.vue'));
 
-/**
+/**vue-fusioncharts
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
