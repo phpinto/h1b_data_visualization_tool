@@ -24,7 +24,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "d3": "^5.15.1",
+        "d3": "^7.6.1",
         "d3-textwrap": "^2.0.2",
         "font-awesome": "^4.7.0",
         "fusioncharts": "^3.15.1-sr.1",
